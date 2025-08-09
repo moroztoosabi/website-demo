@@ -3,174 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Creative portfolio for photography, videography, modeling, content creation, and trusted partners.">
-    <meta property="og:title" content="My Creative Portfolio">
-    <meta property="og:description" content="Photography, videography, modeling, and content creation portfolio with contact form.">
-    <meta property="og:type" content="website">
     <title>My Creative Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            scroll-behavior: smooth;
-            background-color: #f8f8f8;
-            color: #333;
-        }
-        header {
-            background: #222;
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin: 0 1rem;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover {
-            color: #ff9800;
-        }
-        section {
-            padding: 4rem 2rem;
-            max-width: 1000px;
-            margin: auto;
-            text-align: center;
-        }
-        section img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 0.7rem 1.5rem;
-            background: #ff9800;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s ease;
-        }
-        .button:hover {
-            background: #e68900;
-        }
-        .partners-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-        .partner-card {
-            background: white;
-            padding: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            background: #222;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 0.7rem;
-            margin: 0.5rem 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        @media (max-width: 768px) {
-            nav ul {
-                flex-wrap: wrap;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <nav>
         <ul>
-            <li><a href="#photography">Photography</a></li>
-            <li><a href="#videography">Videography</a></li>
-            <li><a href="#modeling">Modeling</a></li>
-            <li><a href="#content-creation">Content Creation</a></li>
-            <li><a href="#trusted-partners">Trusted Partners</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="videography.html">Videography</a></li>
+            <li><a href="modeling.html">Modeling</a></li>
+            <li><a href="content-creation.html">Content Creation</a></li>
+            <li><a href="trusted-partners.html">Trusted Partners</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
 </header>
 
-<section id="photography">
-    <h2>Photography</h2>
-    <img src="https://picsum.photos/800/400?random=1" alt="Photography">
-    <p>Capturing timeless moments with precision and creativity.</p>
-    <a href="#contact" class="button">Contact Me</a>
-</section>
-
-<section id="videography">
-    <h2>Videography</h2>
-    <img src="https://picsum.photos/800/400?random=2" alt="Videography">
-    <p>Bringing stories to life through cinematic visuals.</p>
-    <a href="#contact" class="button">Contact Me</a>
-</section>
-
-<section id="modeling">
-    <h2>Modeling</h2>
-    <img src="https://picsum.photos/800/400?random=3" alt="Modeling">
-    <p>Professional modeling services for diverse campaigns.</p>
-    <a href="#contact" class="button">Contact Me</a>
-</section>
-
-<section id="content-creation">
-    <h2>Content Creation</h2>
-    <img src="https://picsum.photos/800/400?random=4" alt="Content Creation">
-    <p>Creative strategies for engaging and impactful content.</p>
-    <a href="#contact" class="button">Contact Me</a>
-</section>
-
-<section id="trusted-partners">
-    <h2>Trusted Partners</h2>
-    <div class="partners-grid">
-        <div class="partner-card">
-            <img src="https://picsum.photos/300/200?random=5" alt="Partner 1">
-            <h3>Jane Doe</h3>
-            <p>Photographer</p>
-        </div>
-        <div class="partner-card">
-            <img src="https://picsum.photos/300/200?random=6" alt="Partner 2">
-            <h3>John Smith</h3>
-            <p>Videographer</p>
-        </div>
-        <div class="partner-card">
-            <img src="https://picsum.photos/300/200?random=7" alt="Partner 3">
-            <h3>Emily Davis</h3>
-            <p>Model</p>
-        </div>
-    </div>
-    <a href="#contact" class="button">Contact Me</a>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="button">Send Message</button>
-    </form>
+<section>
+    <h1>Welcome to My Creative Portfolio</h1>
+    <p>Showcasing my work in photography, videography, modeling, and content creation.</p>
+    <img src="https://picsum.photos/800/400?random=10" alt="Portfolio Showcase">
+    <a href="contact.html" class="button">Contact Me</a>
 </section>
 
 <footer>
